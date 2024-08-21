@@ -1,0 +1,88 @@
+* {
+  background: whitesmoke;
+}
+.App {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin: 20px;
+}
+
+h1 {
+  color: #333;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button.add-task {
+  background-color: #4caf50;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+li {
+  background-color: #f9f9f9;
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  margin-bottom: 10px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+li .task-text {
+  flex-grow: 1;
+}
+
+li input[type="text"] {
+  padding: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+li .buttons {
+  display: flex;
+}
+
+li .buttons button {
+  margin-left: 10px;
+}
+
+li .buttons button.edit {
+  background-color: #2196f3;
+}
+
+li .buttons button.edit:hover {
+  background-color: #0b7dda;
+}
+
+li .buttons button.delete {
+  background-color: #f44336;
+}
+
+li .buttons button.delete:hover {
+  background-color: #da190b;
+}
