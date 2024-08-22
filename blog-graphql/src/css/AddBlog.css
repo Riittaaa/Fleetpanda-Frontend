@@ -1,0 +1,23 @@
+body {
+  /* background-color: rgb(204, 161, 245);
+   */
+  background-image: url("../images/image.jpg");
+}
+.form {
+  margin: 40px;
+  padding: 30px;
+  box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px,
+    rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+  width: 30%;
+  background-color: white;
+}
+.form input {
+  padding: 10px;
+  margin: 5px;
+  width: 90%;
+  border-radius: 5px;
+}
+.form input[type="submit"] {
+  background-color: rgb(72, 192, 240);
+  color: white;
+}
